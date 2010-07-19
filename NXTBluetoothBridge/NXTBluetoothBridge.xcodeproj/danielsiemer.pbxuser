@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {807, 350}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	256AC3D80F4B6AC300CF3369 /* NXTBluetoothBridgeAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {807, 520}}";
+			sepNavSelRange = "{1193, 0}";
+			sepNavVisRange = "{193, 1006}";
+			sepNavWindowFrame = "{{38, 105}, {957, 747}}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* NXTBluetoothBridgeAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {807, 2652}}";
+			sepNavSelRange = "{5053, 0}";
+			sepNavVisRange = "{4155, 1090}";
+			sepNavWindowFrame = "{{19, 36}, {952, 837}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = x86_64;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = BCA54953117394420073900C /* NXTBluetoothBridge */;
+		activeSDKPreference = macosx10.5;
+		activeTarget = 8D1107260486CEB800E47090 /* NXTBluetoothBridge */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* NXTBluetoothBridge */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = BCA5497B1173944C0073900C /* Code sense */;
+		executables = (
+			BCA54953117394420073900C /* NXTBluetoothBridge */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					295,
+					20,
+					195,
+					195,
+					122,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					585,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					629,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					637.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					605,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					589,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 301260755;
+			PBXWorkspaceStateSaveDate = 301260755;
+		};
+		perUserProjectItems = {
+			BC4E9A2011EDB093001E9D41 = BC4E9A2011EDB093001E9D41 /* PBXTextBookmark */;
+			BC5C5F3D11DAE7AA00406AF0 = BC5C5F3D11DAE7AA00406AF0 /* PBXTextBookmark */;
+			BC862D1D11F26D7600706261 = BC862D1D11F26D7600706261 /* PBXTextBookmark */;
+			BC8800DA11E2F2E20033A013 = BC8800DA11E2F2E20033A013 /* PBXBookmark */;
+			BC8800DB11E2F2E20033A013 = BC8800DB11E2F2E20033A013 /* PBXTextBookmark */;
+			BC8802E011E6052E0033A013 = BC8802E011E6052E0033A013 /* PBXTextBookmark */;
+			BC913AFB11F4A5F7001A17C5 = BC913AFB11F4A5F7001A17C5 /* PBXTextBookmark */;
+			BC913B0211F4A61B001A17C5 = BC913B0211F4A61B001A17C5 /* PBXTextBookmark */;
+			BC913B0311F4A61B001A17C5 = BC913B0311F4A61B001A17C5 /* PBXTextBookmark */;
+			BC913B0511F4A61B001A17C5 = BC913B0511F4A61B001A17C5 /* PBXTextBookmark */;
+			BC913B8011F4DFDD001A17C5 /* PBXTextBookmark */ = BC913B8011F4DFDD001A17C5 /* PBXTextBookmark */;
+			BC94559D11A2CC3F00412D63 = BC94559D11A2CC3F00412D63 /* PBXTextBookmark */;
+			BCC37F2911E6152C0077E320 = BCC37F2911E6152C0077E320 /* PBXTextBookmark */;
+			BCC37FF311E62C040077E320 = BCC37FF311E62C040077E320 /* PlistBookmark */;
+		};
+		sourceControlManager = BCA5497A1173944C0073900C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* NXTBluetoothBridge */ = {
+		activeExec = 0;
+		executables = (
+			BCA54953117394420073900C /* NXTBluetoothBridge */,
+		);
+	};
+	BC42830B117A0174004BA45F /* AsyncSocket.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = AsyncSocket.m;
+		path = /Users/danielsiemer/Documents/Coding_Things/Lego/MyCode/iNXTFramework/AsyncSocket.m;
+		sourceTree = "<absolute>";
+	};
+	BC4E9A2011EDB093001E9D41 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC4E9A2111EDB093001E9D41 /* TwoSegmentViewController.m */;
+		name = "TwoSegmentViewController.m: 85";
+		rLen = 60;
+		rLoc = 2610;
+		rType = 0;
+		vrLen = 1543;
+		vrLoc = 1572;
+	};
+	BC4E9A2111EDB093001E9D41 /* TwoSegmentViewController.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = TwoSegmentViewController.m;
+		path = "/Users/danielsiemer/Documents/Coding_Things/Lego/MyCode/iNXT Remote 1.1/iNXT Remote/Classes/TwoSegmentViewController.m";
+		sourceTree = "<absolute>";
+	};
+	BC5C5F1411DA56A600406AF0 /* NXTUSBConnection.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = NXTUSBConnection.m;
+		path = /Users/danielsiemer/Documents/Coding_Things/Lego/MyCode/iNXTFramework/NXTUSBConnection.m;
+		sourceTree = "<absolute>";
+	};
+	BC5C5F3D11DAE7AA00406AF0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC5C5F1411DA56A600406AF0 /* NXTUSBConnection.m */;
+		name = "NXTUSBConnection.m: 34";
+		rLen = 0;
+		rLoc = 835;
+		rType = 0;
+		vrLen = 1046;
+		vrLoc = 397;
+	};
+	BC862D1D11F26D7600706261 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC862D1E11F26D7600706261 /* NXTUSBConnection.m */;
+		name = "NXTUSBConnection.m: 179";
+		rLen = 0;
+		rLoc = 5380;
+		rType = 0;
+		vrLen = 995;
+		vrLoc = 12377;
+	};
+	BC862D1E11F26D7600706261 /* NXTUSBConnection.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = NXTUSBConnection.m;
+		path = /Users/danielsiemer/Documents/Coding_Things/Lego/SVN/iNXTFramework/NXTUSBConnection.m;
+		sourceTree = "<absolute>";
+	};
+	BC8800DA11E2F2E20033A013 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BC88008511E259A90033A013 /* Icon.icns */;
+	};
+	BC8800DB11E2F2E20033A013 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC8800DC11E2F2E20033A013 /* project.pbxproj */;
+		name = "project.pbxproj: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1935;
+		vrLoc = 0;
+	};
+	BC8800DC11E2F2E20033A013 /* project.pbxproj */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.pbxproject;
+		name = project.pbxproj;
+		path = /Users/danielsiemer/Documents/Coding_Things/Lego/SVN/NXTBluetoothBridge/NXTBluetoothBridge.xcodeproj/project.pbxproj;
+		sourceTree = "<absolute>";
+	};
+	BC8802CC11E604B10033A013 /* danielsiemer.pbxuser */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = danielsiemer.pbxuser;
+		path = /Users/danielsiemer/Documents/Coding_Things/Lego/SVN/NXTBluetoothBridge/NXTBluetoothBridge.xcodeproj/danielsiemer.pbxuser;
+		sourceTree = "<absolute>";
+	};
+	BC8802E011E6052E0033A013 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC8802CC11E604B10033A013 /* danielsiemer.pbxuser */;
+		name = "danielsiemer.pbxuser: 395";
+		rLen = 0;
+		rLoc = 12292;
+		rType = 0;
+		vrLen = 904;
+		vrLoc = 0;
+	};
+	BC913AFB11F4A5F7001A17C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* NXTBluetoothBridgeAppDelegate.h */;
+		name = "NXTBluetoothBridgeAppDelegate.h: 38";
+		rLen = 0;
+		rLoc = 1193;
+		rType = 0;
+		vrLen = 1006;
+		vrLoc = 193;
+	};
+	BC913B0211F4A61B001A17C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* NXTBluetoothBridgeAppDelegate.m */;
+		name = "NXTBluetoothBridgeAppDelegate.m: 154";
+		rLen = 0;
+		rLoc = 5053;
+		rType = 0;
+		vrLen = 1204;
+		vrLoc = 4041;
+	};
+	BC913B0311F4A61B001A17C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC913B0411F4A61B001A17C5 /* Diff BASE vs. Local — NXTBluetoothBridgeAppDelegate.m */;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+		rType = 0;
+	};
+	BC913B0411F4A61B001A17C5 /* Diff BASE vs. Local — NXTBluetoothBridgeAppDelegate.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		path = "Diff BASE vs. Local — NXTBluetoothBridgeAppDelegate.m";
+		sourceTree = "<group>";
+	};
+	BC913B0511F4A61B001A17C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC913B0611F4A61B001A17C5 /* Diff BASE vs. Local — NXTBluetoothBridgeAppDelegate.m */;
+		name = "Diff BASE vs. Local — NXTBluetoothBridgeAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1008;
+		vrLoc = 2542;
+	};
+	BC913B0611F4A61B001A17C5 /* Diff BASE vs. Local — NXTBluetoothBridgeAppDelegate.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		path = "Diff BASE vs. Local — NXTBluetoothBridgeAppDelegate.m";
+		sourceTree = "<group>";
+	};
+	BC913B8011F4DFDD001A17C5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* NXTBluetoothBridgeAppDelegate.m */;
+		name = "NXTBluetoothBridgeAppDelegate.m: 154";
+		rLen = 0;
+		rLoc = 5053;
+		rType = 0;
+		vrLen = 1090;
+		vrLoc = 4155;
+	};
+	BC94559D11A2CC3F00412D63 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BC42830B117A0174004BA45F /* AsyncSocket.m */;
+		name = "AsyncSocket.m: 2829";
+		rLen = 0;
+		rLoc = 84557;
+		rType = 0;
+		vrLen = 1006;
+		vrLoc = 85985;
+	};
+	BCA54953117394420073900C /* NXTBluetoothBridge */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = NXTBluetoothBridge;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	BCA5497A1173944C0073900C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = ubuntudragon;
+			};
+		};
+	};
+	BCA5497B1173944C0073900C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BCC37F2911E6152C0077E320 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	BCC37FF311E62C040077E320 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* NXTBluetoothBridge-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/danielsiemer/Documents/Coding_Things/Lego/SVN/NXTBluetoothBridge/NXTBluetoothBridge-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+}
