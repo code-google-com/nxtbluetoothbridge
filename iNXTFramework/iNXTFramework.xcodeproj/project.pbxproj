@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA747D9F0F9514B9006C5449 /* iNXTFramework_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* iNXTFramework_Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC2F67CC11A6E47700756290 /* NXTSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2F67CA11A6E47700756290 /* NXTSensor.h */; };
+		BC2F67CD11A6E47700756290 /* NXTSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F67CB11A6E47700756290 /* NXTSensor.m */; };
+		BC2F68B711A8F63700756290 /* NXTSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F67CB11A6E47700756290 /* NXTSensor.m */; };
+		BC2F6B0311AE06D800756290 /* NXTController+SensorCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2F6B0111AE06D800756290 /* NXTController+SensorCommands.h */; };
+		BC2F6B0411AE06D800756290 /* NXTController+SensorCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F6B0211AE06D800756290 /* NXTController+SensorCommands.m */; };
+		BC2F6B2F11AE201D00756290 /* NXTLogController.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2F6B2D11AE201D00756290 /* NXTLogController.h */; };
+		BC2F6B3011AE201D00756290 /* NXTLogController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F6B2E11AE201D00756290 /* NXTLogController.m */; };
+		BC2F6B3411AE205500756290 /* NXTLogController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F6B2E11AE201D00756290 /* NXTLogController.m */; };
+		BC2F6B3511AE205C00756290 /* NXTController+SensorCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F6B0211AE06D800756290 /* NXTController+SensorCommands.m */; };
+		BC2F6B3811AE206B00756290 /* NXTController+SensorCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2F6B0111AE06D800756290 /* NXTController+SensorCommands.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC2F6B3B11AE207300756290 /* NXTLogController.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2F6B2D11AE201D00756290 /* NXTLogController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC2F6C5D11B009BA00756290 /* NXTMotor.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2F6C5B11B009BA00756290 /* NXTMotor.h */; };
+		BC2F6C5E11B009BA00756290 /* NXTMotor.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F6C5C11B009BA00756290 /* NXTMotor.m */; };
+		BC2F6C5F11B009BA00756290 /* NXTMotor.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2F6C5B11B009BA00756290 /* NXTMotor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC2F6C6011B009BA00756290 /* NXTMotor.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F6C5C11B009BA00756290 /* NXTMotor.m */; };
+		BC2F6C8C11B1948D00756290 /* NXTLowSpeed.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2F6C8A11B1948D00756290 /* NXTLowSpeed.h */; };
+		BC2F6C8D11B1948D00756290 /* NXTLowSpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F6C8B11B1948D00756290 /* NXTLowSpeed.m */; };
+		BC2F6C8E11B1948D00756290 /* NXTLowSpeed.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2F6C8A11B1948D00756290 /* NXTLowSpeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC2F6C8F11B1948D00756290 /* NXTLowSpeed.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F6C8B11B1948D00756290 /* NXTLowSpeed.m */; };
+		BC2F6CAE11B197FF00756290 /* NXTSonar.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2F6CAC11B197FF00756290 /* NXTSonar.h */; };
+		BC2F6CAF11B197FF00756290 /* NXTSonar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F6CAD11B197FF00756290 /* NXTSonar.m */; };
+		BC2F6CB011B197FF00756290 /* NXTSonar.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2F6CAC11B197FF00756290 /* NXTSonar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC2F6CB111B197FF00756290 /* NXTSonar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F6CAD11B197FF00756290 /* NXTSonar.m */; };
+		BC2F6DB111B1B3B400756290 /* NXTGenericSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2F6DAF11B1B3B400756290 /* NXTGenericSensor.h */; };
+		BC2F6DB211B1B3B400756290 /* NXTGenericSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F6DB011B1B3B400756290 /* NXTGenericSensor.m */; };
+		BC2F6DB311B1B3B400756290 /* NXTGenericSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2F6DAF11B1B3B400756290 /* NXTGenericSensor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC2F6DB411B1B3B400756290 /* NXTGenericSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2F6DB011B1B3B400756290 /* NXTGenericSensor.m */; };
+		BC4281441179FD0F004BA45F /* NXTController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CB92116CCE3A002ADDB5 /* NXTController.m */; };
+		BC4281451179FD0F004BA45F /* NXTController+FileCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CB94116CCE3A002ADDB5 /* NXTController+FileCommands.m */; };
+		BC4281461179FD0F004BA45F /* NXTController+SystemCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CB96116CCE3A002ADDB5 /* NXTController+SystemCommands.m */; };
+		BC4281471179FD0F004BA45F /* NXTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CB98116CCE3A002ADDB5 /* NXTModel.m */; };
+		BC4281481179FD0F004BA45F /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CBCD116CCF0C002ADDB5 /* AsyncSocket.m */; };
+		BC4281491179FD0F004BA45F /* NXTServer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC95FE0611790CED0080E75E /* NXTServer.m */; };
+		BC42814A1179FD0F004BA45F /* NXTConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CBA9116CCE84002ADDB5 /* NXTConnection.m */; };
+		BC42814B1179FD0F004BA45F /* NXTNetConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CBAB116CCE84002ADDB5 /* NXTNetConnection.m */; };
+		BC42814C1179FD0F004BA45F /* NXTBluetoothConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA545DC11725C390073900C /* NXTBluetoothConnection.m */; };
+		BC42814D1179FD0F004BA45F /* NXTUSBConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA545E311725C550073900C /* NXTUSBConnection.m */; };
+		BC42814E1179FD0F004BA45F /* NetConnectioh.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA54376117249EB0073900C /* NetConnectioh.m */; };
+		BC42814F1179FD0F004BA45F /* DCSConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CDC4116CD864002ADDB5 /* DCSConnectionManager.m */; };
+		BC4282261179FD1F004BA45F /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA546EC11738CF70073900C /* IOBluetooth.framework */; };
+		BC4282271179FD1F004BA45F /* IOBluetoothUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA546ED11738CF70073900C /* IOBluetoothUI.framework */; };
+		BC4282281179FD1F004BA45F /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA546EE11738CF70073900C /* IOKit.framework */; };
+		BC4282291179FD1F004BA45F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA546EA11738CE30073900C /* Foundation.framework */; };
+		BC42839D117A0355004BA45F /* NXTController.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CB91116CCE39002ADDB5 /* NXTController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC42839E117A0355004BA45F /* NXTController+FileCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CB93116CCE3A002ADDB5 /* NXTController+FileCommands.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC42839F117A0355004BA45F /* NXTController+SystemCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CB95116CCE3A002ADDB5 /* NXTController+SystemCommands.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC4283A0117A0355004BA45F /* NXTModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CB97116CCE3A002ADDB5 /* NXTModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC4283A1117A0355004BA45F /* NXTOpCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CB99116CCE3A002ADDB5 /* NXTOpCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC4283A2117A0355004BA45F /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CBCC116CCF0C002ADDB5 /* AsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC4283A3117A0355004BA45F /* NXTServer.h in Headers */ = {isa = PBXBuildFile; fileRef = BC95FE0511790CED0080E75E /* NXTServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC4283A4117A0355004BA45F /* NXTConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CBA8116CCE84002ADDB5 /* NXTConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC4283A5117A0355004BA45F /* NXTNetConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CBAA116CCE84002ADDB5 /* NXTNetConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC4283A6117A0355004BA45F /* NXTBluetoothConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA545DB11725C390073900C /* NXTBluetoothConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC4283A7117A0355004BA45F /* NXTUSBConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA545E211725C550073900C /* NXTUSBConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC4283A8117A0355004BA45F /* NetConnectioh.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA54375117249EB0073900C /* NetConnectioh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC4283A9117A0355004BA45F /* DCSConnectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CDC3116CD864002ADDB5 /* DCSConnectionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC68CB9A116CCE3A002ADDB5 /* NXTController.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CB91116CCE39002ADDB5 /* NXTController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC68CB9B116CCE3A002ADDB5 /* NXTController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CB92116CCE3A002ADDB5 /* NXTController.m */; };
+		BC68CB9C116CCE3A002ADDB5 /* NXTController+FileCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CB93116CCE3A002ADDB5 /* NXTController+FileCommands.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC68CB9D116CCE3A002ADDB5 /* NXTController+FileCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CB94116CCE3A002ADDB5 /* NXTController+FileCommands.m */; };
+		BC68CB9E116CCE3A002ADDB5 /* NXTController+SystemCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CB95116CCE3A002ADDB5 /* NXTController+SystemCommands.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC68CB9F116CCE3A002ADDB5 /* NXTController+SystemCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CB96116CCE3A002ADDB5 /* NXTController+SystemCommands.m */; };
+		BC68CBA0116CCE3A002ADDB5 /* NXTModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CB97116CCE3A002ADDB5 /* NXTModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC68CBA1116CCE3A002ADDB5 /* NXTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CB98116CCE3A002ADDB5 /* NXTModel.m */; };
+		BC68CBA2116CCE3A002ADDB5 /* NXTOpCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CB99116CCE3A002ADDB5 /* NXTOpCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC68CBAC116CCE84002ADDB5 /* NXTConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CBA8116CCE84002ADDB5 /* NXTConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC68CBAD116CCE84002ADDB5 /* NXTConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CBA9116CCE84002ADDB5 /* NXTConnection.m */; };
+		BC68CBAE116CCE84002ADDB5 /* NXTNetConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CBAA116CCE84002ADDB5 /* NXTNetConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC68CBAF116CCE84002ADDB5 /* NXTNetConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CBAB116CCE84002ADDB5 /* NXTNetConnection.m */; };
+		BC68CBCE116CCF0C002ADDB5 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CBCC116CCF0C002ADDB5 /* AsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC68CBCF116CCF0C002ADDB5 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CBCD116CCF0C002ADDB5 /* AsyncSocket.m */; };
+		BC68CDC5116CD864002ADDB5 /* DCSConnectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BC68CDC3116CD864002ADDB5 /* DCSConnectionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC68CDC6116CD864002ADDB5 /* DCSConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68CDC4116CD864002ADDB5 /* DCSConnectionManager.m */; };
+		BCA54377117249EB0073900C /* NetConnectioh.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA54375117249EB0073900C /* NetConnectioh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCA54378117249EB0073900C /* NetConnectioh.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA54376117249EB0073900C /* NetConnectioh.m */; };
+		BCC10D8711CD7557001EB05D /* NXTFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC10D8511CD7557001EB05D /* NXTFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCC10D8811CD7557001EB05D /* NXTFile.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC10D8611CD7557001EB05D /* NXTFile.m */; };
+		BCC10D8911CD7557001EB05D /* NXTFile.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC10D8511CD7557001EB05D /* NXTFile.h */; };
+		BCC10D8A11CD7557001EB05D /* NXTFile.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC10D8611CD7557001EB05D /* NXTFile.m */; };
+		BCC10DAE11CD76E5001EB05D /* NXTFileController.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC10DAC11CD76E5001EB05D /* NXTFileController.h */; };
+		BCC10DAF11CD76E5001EB05D /* NXTFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC10DAD11CD76E5001EB05D /* NXTFileController.m */; };
+		BCC10DB011CD76E5001EB05D /* NXTFileController.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC10DAC11CD76E5001EB05D /* NXTFileController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCC10DB111CD76E5001EB05D /* NXTFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC10DAD11CD76E5001EB05D /* NXTFileController.m */; };
+		BCC1102111D17F93001EB05D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC1102011D17F93001EB05D /* Foundation.framework */; };
+		BCC110DC11D18029001EB05D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC110DB11D18029001EB05D /* CFNetwork.framework */; };
+		BCE0B19911D98AD4008A984A /* NXTServer.h in Headers */ = {isa = PBXBuildFile; fileRef = BC95FE0511790CED0080E75E /* NXTServer.h */; };
+		BCE0B19A11D98AD8008A984A /* NXTServer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC95FE0611790CED0080E75E /* NXTServer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA747D9E0F9514B9006C5449 /* iNXTFramework_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iNXTFramework_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		BC2F67CA11A6E47700756290 /* NXTSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTSensor.h; sourceTree = "<group>"; };
+		BC2F67CB11A6E47700756290 /* NXTSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTSensor.m; sourceTree = "<group>"; };
+		BC2F6B0111AE06D800756290 /* NXTController+SensorCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NXTController+SensorCommands.h"; sourceTree = "<group>"; };
+		BC2F6B0211AE06D800756290 /* NXTController+SensorCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NXTController+SensorCommands.m"; sourceTree = "<group>"; };
+		BC2F6B2D11AE201D00756290 /* NXTLogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTLogController.h; sourceTree = "<group>"; };
+		BC2F6B2E11AE201D00756290 /* NXTLogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTLogController.m; sourceTree = "<group>"; };
+		BC2F6C5B11B009BA00756290 /* NXTMotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTMotor.h; sourceTree = "<group>"; };
+		BC2F6C5C11B009BA00756290 /* NXTMotor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTMotor.m; sourceTree = "<group>"; };
+		BC2F6C8A11B1948D00756290 /* NXTLowSpeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTLowSpeed.h; sourceTree = "<group>"; };
+		BC2F6C8B11B1948D00756290 /* NXTLowSpeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTLowSpeed.m; sourceTree = "<group>"; };
+		BC2F6CAC11B197FF00756290 /* NXTSonar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTSonar.h; sourceTree = "<group>"; };
+		BC2F6CAD11B197FF00756290 /* NXTSonar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTSonar.m; sourceTree = "<group>"; };
+		BC2F6DAF11B1B3B400756290 /* NXTGenericSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTGenericSensor.h; sourceTree = "<group>"; };
+		BC2F6DB011B1B3B400756290 /* NXTGenericSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTGenericSensor.m; sourceTree = "<group>"; };
+		BC42811A1179FC30004BA45F /* iNXTFramework */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.framework; path = iNXTFramework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC68CB91116CCE39002ADDB5 /* NXTController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTController.h; sourceTree = "<group>"; };
+		BC68CB92116CCE3A002ADDB5 /* NXTController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTController.m; sourceTree = "<group>"; };
+		BC68CB93116CCE3A002ADDB5 /* NXTController+FileCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NXTController+FileCommands.h"; sourceTree = "<group>"; };
+		BC68CB94116CCE3A002ADDB5 /* NXTController+FileCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NXTController+FileCommands.m"; sourceTree = "<group>"; };
+		BC68CB95116CCE3A002ADDB5 /* NXTController+SystemCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NXTController+SystemCommands.h"; sourceTree = "<group>"; };
+		BC68CB96116CCE3A002ADDB5 /* NXTController+SystemCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NXTController+SystemCommands.m"; sourceTree = "<group>"; };
+		BC68CB97116CCE3A002ADDB5 /* NXTModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTModel.h; sourceTree = "<group>"; };
+		BC68CB98116CCE3A002ADDB5 /* NXTModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTModel.m; sourceTree = "<group>"; };
+		BC68CB99116CCE3A002ADDB5 /* NXTOpCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTOpCodes.h; sourceTree = "<group>"; };
+		BC68CBA8116CCE84002ADDB5 /* NXTConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTConnection.h; sourceTree = "<group>"; };
+		BC68CBA9116CCE84002ADDB5 /* NXTConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTConnection.m; sourceTree = "<group>"; };
+		BC68CBAA116CCE84002ADDB5 /* NXTNetConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTNetConnection.h; sourceTree = "<group>"; };
+		BC68CBAB116CCE84002ADDB5 /* NXTNetConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTNetConnection.m; sourceTree = "<group>"; };
+		BC68CBCC116CCF0C002ADDB5 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		BC68CBCD116CCF0C002ADDB5 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		BC68CD43116CD7B5002ADDB5 /* iNXTFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iNXTFramework-Info.plist"; sourceTree = "<group>"; };
+		BC68CDC3116CD864002ADDB5 /* DCSConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSConnectionManager.h; sourceTree = "<group>"; };
+		BC68CDC4116CD864002ADDB5 /* DCSConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCSConnectionManager.m; sourceTree = "<group>"; };
+		BC95FE0511790CED0080E75E /* NXTServer.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 3; lastKnownFileType = sourcecode.c.h; path = NXTServer.h; sourceTree = "<group>"; tabWidth = 3; usesTabs = 0; };
+		BC95FE0611790CED0080E75E /* NXTServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTServer.m; sourceTree = "<group>"; };
+		BCA54375117249EB0073900C /* NetConnectioh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetConnectioh.h; sourceTree = "<group>"; };
+		BCA54376117249EB0073900C /* NetConnectioh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetConnectioh.m; sourceTree = "<group>"; };
+		BCA545DB11725C390073900C /* NXTBluetoothConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTBluetoothConnection.h; sourceTree = "<group>"; };
+		BCA545DC11725C390073900C /* NXTBluetoothConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTBluetoothConnection.m; sourceTree = "<group>"; };
+		BCA545E211725C550073900C /* NXTUSBConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTUSBConnection.h; sourceTree = "<group>"; };
+		BCA545E311725C550073900C /* NXTUSBConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTUSBConnection.m; sourceTree = "<group>"; };
+		BCA546EA11738CE30073900C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCA546EC11738CF70073900C /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		BCA546ED11738CF70073900C /* IOBluetoothUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetoothUI.framework; path = System/Library/Frameworks/IOBluetoothUI.framework; sourceTree = SDKROOT; };
+		BCA546EE11738CF70073900C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		BCC10D8511CD7557001EB05D /* NXTFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTFile.h; sourceTree = "<group>"; };
+		BCC10D8611CD7557001EB05D /* NXTFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTFile.m; sourceTree = "<group>"; };
+		BCC10DAC11CD76E5001EB05D /* NXTFileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTFileController.h; sourceTree = "<group>"; };
+		BCC10DAD11CD76E5001EB05D /* NXTFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTFileController.m; sourceTree = "<group>"; };
+		BCC1102011D17F93001EB05D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCC110DB11D18029001EB05D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libiNXTFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiNXTFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC4281181179FC30004BA45F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4282291179FD1F004BA45F /* Foundation.framework in Frameworks */,
+				BC4282261179FD1F004BA45F /* IOBluetooth.framework in Frameworks */,
+				BC4282271179FD1F004BA45F /* IOBluetoothUI.framework in Frameworks */,
+				BC4282281179FD1F004BA45F /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC1102111D17F93001EB05D /* Foundation.framework in Frameworks */,
+				BCC110DC11D18029001EB05D /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libiNXTFramework.a */,
+				BC42811A1179FC30004BA45F /* iNXTFramework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* iNXTFramework */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = iNXTFramework;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCA545D111725B550073900C /* OSX */,
+				BCA545D011725B4A0073900C /* iPhone */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC68CBB1116CCE8E002ADDB5 /* NXT */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BC68CD43116CD7B5002ADDB5 /* iNXTFramework-Info.plist */,
+				AA747D9E0F9514B9006C5449 /* iNXTFramework_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		BC2F67CF11A6E48100756290 /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F6D5A11B1A73000756290 /* LowSpeed */,
+				BC2F67CA11A6E47700756290 /* NXTSensor.h */,
+				BC2F67CB11A6E47700756290 /* NXTSensor.m */,
+				BC2F6DAF11B1B3B400756290 /* NXTGenericSensor.h */,
+				BC2F6DB011B1B3B400756290 /* NXTGenericSensor.m */,
+				BC2F6C5B11B009BA00756290 /* NXTMotor.h */,
+				BC2F6C5C11B009BA00756290 /* NXTMotor.m */,
+				BC2F6B2D11AE201D00756290 /* NXTLogController.h */,
+				BC2F6B2E11AE201D00756290 /* NXTLogController.m */,
+			);
+			name = Sensors;
+			sourceTree = "<group>";
+		};
+		BC2F6B8011AF7E3500756290 /* NXTController and Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BC68CB91116CCE39002ADDB5 /* NXTController.h */,
+				BC68CB92116CCE3A002ADDB5 /* NXTController.m */,
+				BC68CB93116CCE3A002ADDB5 /* NXTController+FileCommands.h */,
+				BC68CB94116CCE3A002ADDB5 /* NXTController+FileCommands.m */,
+				BC68CB95116CCE3A002ADDB5 /* NXTController+SystemCommands.h */,
+				BC68CB96116CCE3A002ADDB5 /* NXTController+SystemCommands.m */,
+				BC2F6B0111AE06D800756290 /* NXTController+SensorCommands.h */,
+				BC2F6B0211AE06D800756290 /* NXTController+SensorCommands.m */,
+			);
+			name = "NXTController and Categories";
+			sourceTree = "<group>";
+		};
+		BC2F6D5A11B1A73000756290 /* LowSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F6C8A11B1948D00756290 /* NXTLowSpeed.h */,
+				BC2F6C8B11B1948D00756290 /* NXTLowSpeed.m */,
+				BC2F6CAC11B197FF00756290 /* NXTSonar.h */,
+				BC2F6CAD11B197FF00756290 /* NXTSonar.m */,
+			);
+			name = LowSpeed;
+			sourceTree = "<group>";
+		};
+		BC68CBB0116CCE88002ADDB5 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				BC68CBCC116CCF0C002ADDB5 /* AsyncSocket.h */,
+				BC68CBCD116CCF0C002ADDB5 /* AsyncSocket.m */,
+				BC95FE0511790CED0080E75E /* NXTServer.h */,
+				BC95FE0611790CED0080E75E /* NXTServer.m */,
+				BCA545DF11725C440073900C /* ConnectionTypes */,
+				BCA54375117249EB0073900C /* NetConnectioh.h */,
+				BCA54376117249EB0073900C /* NetConnectioh.m */,
+				BC68CDC3116CD864002ADDB5 /* DCSConnectionManager.h */,
+				BC68CDC4116CD864002ADDB5 /* DCSConnectionManager.m */,
+			);
+			name = Communication;
+			sourceTree = "<group>";
+		};
+		BC68CBB1116CCE8E002ADDB5 /* NXT */ = {
+			isa = PBXGroup;
+			children = (
+				BC2F6B8011AF7E3500756290 /* NXTController and Categories */,
+				BC2F67CF11A6E48100756290 /* Sensors */,
+				BCC10DB311CD76EF001EB05D /* File */,
+				BC68CB97116CCE3A002ADDB5 /* NXTModel.h */,
+				BC68CB98116CCE3A002ADDB5 /* NXTModel.m */,
+				BC68CB99116CCE3A002ADDB5 /* NXTOpCodes.h */,
+				BC68CBB0116CCE88002ADDB5 /* Communication */,
+			);
+			name = NXT;
+			sourceTree = "<group>";
+		};
+		BCA545D011725B4A0073900C /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				BCC1102011D17F93001EB05D /* Foundation.framework */,
+				BCC110DB11D18029001EB05D /* CFNetwork.framework */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		BCA545D111725B550073900C /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				BCA546EC11738CF70073900C /* IOBluetooth.framework */,
+				BCA546ED11738CF70073900C /* IOBluetoothUI.framework */,
+				BCA546EE11738CF70073900C /* IOKit.framework */,
+				BCA546EA11738CE30073900C /* Foundation.framework */,
+			);
+			name = OSX;
+			sourceTree = "<group>";
+		};
+		BCA545DF11725C440073900C /* ConnectionTypes */ = {
+			isa = PBXGroup;
+			children = (
+				BC68CBA8116CCE84002ADDB5 /* NXTConnection.h */,
+				BC68CBA9116CCE84002ADDB5 /* NXTConnection.m */,
+				BC68CBAA116CCE84002ADDB5 /* NXTNetConnection.h */,
+				BC68CBAB116CCE84002ADDB5 /* NXTNetConnection.m */,
+				BCA545DB11725C390073900C /* NXTBluetoothConnection.h */,
+				BCA545DC11725C390073900C /* NXTBluetoothConnection.m */,
+				BCA545E211725C550073900C /* NXTUSBConnection.h */,
+				BCA545E311725C550073900C /* NXTUSBConnection.m */,
+			);
+			name = ConnectionTypes;
+			sourceTree = "<group>";
+		};
+		BCC10DB311CD76EF001EB05D /* File */ = {
+			isa = PBXGroup;
+			children = (
+				BCC10D8511CD7557001EB05D /* NXTFile.h */,
+				BCC10D8611CD7557001EB05D /* NXTFile.m */,
+				BCC10DAC11CD76E5001EB05D /* NXTFileController.h */,
+				BCC10DAD11CD76E5001EB05D /* NXTFileController.m */,
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BC42839C117A0348004BA45F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2F6B3B11AE207300756290 /* NXTLogController.h in Headers */,
+				BC2F6B3811AE206B00756290 /* NXTController+SensorCommands.h in Headers */,
+				BC42839D117A0355004BA45F /* NXTController.h in Headers */,
+				BC42839E117A0355004BA45F /* NXTController+FileCommands.h in Headers */,
+				BC42839F117A0355004BA45F /* NXTController+SystemCommands.h in Headers */,
+				BC4283A0117A0355004BA45F /* NXTModel.h in Headers */,
+				BC4283A1117A0355004BA45F /* NXTOpCodes.h in Headers */,
+				BC4283A2117A0355004BA45F /* AsyncSocket.h in Headers */,
+				BC4283A3117A0355004BA45F /* NXTServer.h in Headers */,
+				BC4283A4117A0355004BA45F /* NXTConnection.h in Headers */,
+				BC4283A5117A0355004BA45F /* NXTNetConnection.h in Headers */,
+				BC4283A6117A0355004BA45F /* NXTBluetoothConnection.h in Headers */,
+				BC4283A7117A0355004BA45F /* NXTUSBConnection.h in Headers */,
+				BC4283A8117A0355004BA45F /* NetConnectioh.h in Headers */,
+				BC4283A9117A0355004BA45F /* DCSConnectionManager.h in Headers */,
+				BC2F6C5F11B009BA00756290 /* NXTMotor.h in Headers */,
+				BC2F6C8E11B1948D00756290 /* NXTLowSpeed.h in Headers */,
+				BC2F6CB011B197FF00756290 /* NXTSonar.h in Headers */,
+				BC2F6DB311B1B3B400756290 /* NXTGenericSensor.h in Headers */,
+				BCC10D8711CD7557001EB05D /* NXTFile.h in Headers */,
+				BCC10DB011CD76E5001EB05D /* NXTFileController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE0B19911D98AD4008A984A /* NXTServer.h in Headers */,
+				BC2F67CC11A6E47700756290 /* NXTSensor.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* iNXTFramework_Prefix.pch in Headers */,
+				BC68CB9A116CCE3A002ADDB5 /* NXTController.h in Headers */,
+				BC68CB9C116CCE3A002ADDB5 /* NXTController+FileCommands.h in Headers */,
+				BC68CB9E116CCE3A002ADDB5 /* NXTController+SystemCommands.h in Headers */,
+				BC68CBA0116CCE3A002ADDB5 /* NXTModel.h in Headers */,
+				BC68CBA2116CCE3A002ADDB5 /* NXTOpCodes.h in Headers */,
+				BC68CBAC116CCE84002ADDB5 /* NXTConnection.h in Headers */,
+				BC68CBAE116CCE84002ADDB5 /* NXTNetConnection.h in Headers */,
+				BC68CBCE116CCF0C002ADDB5 /* AsyncSocket.h in Headers */,
+				BC68CDC5116CD864002ADDB5 /* DCSConnectionManager.h in Headers */,
+				BCA54377117249EB0073900C /* NetConnectioh.h in Headers */,
+				BC2F6B0311AE06D800756290 /* NXTController+SensorCommands.h in Headers */,
+				BC2F6B2F11AE201D00756290 /* NXTLogController.h in Headers */,
+				BC2F6C5D11B009BA00756290 /* NXTMotor.h in Headers */,
+				BC2F6C8C11B1948D00756290 /* NXTLowSpeed.h in Headers */,
+				BC2F6CAE11B197FF00756290 /* NXTSonar.h in Headers */,
+				BC2F6DB111B1B3B400756290 /* NXTGenericSensor.h in Headers */,
+				BCC10D8911CD7557001EB05D /* NXTFile.h in Headers */,
+				BCC10DAE11CD76E5001EB05D /* NXTFileController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BC4281191179FC30004BA45F /* iNXTFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4281201179FC4F004BA45F /* Build configuration list for PBXNativeTarget "iNXTFramework" */;
+			buildPhases = (
+				BC42839C117A0348004BA45F /* Headers */,
+				BC4281171179FC30004BA45F /* Sources */,
+				BC4281181179FC30004BA45F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iNXTFramework;
+			productName = iNXTFramework;
+			productReference = BC42811A1179FC30004BA45F /* iNXTFramework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2AAC07D0554694100DB518D /* iNXTLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "iNXTLibrary" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iNXTLibrary;
+			productName = iNXTFramework;
+			productReference = D2AAC07E0554694100DB518D /* libiNXTFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "iNXTFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* iNXTFramework */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC4281191179FC30004BA45F /* iNXTFramework */,
+				D2AAC07D0554694100DB518D /* iNXTLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC4281171179FC30004BA45F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2F6B3511AE205C00756290 /* NXTController+SensorCommands.m in Sources */,
+				BC2F6B3411AE205500756290 /* NXTLogController.m in Sources */,
+				BC4281441179FD0F004BA45F /* NXTController.m in Sources */,
+				BC4281451179FD0F004BA45F /* NXTController+FileCommands.m in Sources */,
+				BC4281461179FD0F004BA45F /* NXTController+SystemCommands.m in Sources */,
+				BC4281471179FD0F004BA45F /* NXTModel.m in Sources */,
+				BC4281481179FD0F004BA45F /* AsyncSocket.m in Sources */,
+				BC42814A1179FD0F004BA45F /* NXTConnection.m in Sources */,
+				BC42814B1179FD0F004BA45F /* NXTNetConnection.m in Sources */,
+				BC42814C1179FD0F004BA45F /* NXTBluetoothConnection.m in Sources */,
+				BC42814D1179FD0F004BA45F /* NXTUSBConnection.m in Sources */,
+				BC42814E1179FD0F004BA45F /* NetConnectioh.m in Sources */,
+				BC42814F1179FD0F004BA45F /* DCSConnectionManager.m in Sources */,
+				BC4281491179FD0F004BA45F /* NXTServer.m in Sources */,
+				BC2F68B711A8F63700756290 /* NXTSensor.m in Sources */,
+				BC2F6C6011B009BA00756290 /* NXTMotor.m in Sources */,
+				BC2F6C8F11B1948D00756290 /* NXTLowSpeed.m in Sources */,
+				BC2F6CB111B197FF00756290 /* NXTSonar.m in Sources */,
+				BC2F6DB411B1B3B400756290 /* NXTGenericSensor.m in Sources */,
+				BCC10D8811CD7557001EB05D /* NXTFile.m in Sources */,
+				BCC10DB111CD76E5001EB05D /* NXTFileController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE0B19A11D98AD8008A984A /* NXTServer.m in Sources */,
+				BC68CB9B116CCE3A002ADDB5 /* NXTController.m in Sources */,
+				BC68CB9D116CCE3A002ADDB5 /* NXTController+FileCommands.m in Sources */,
+				BC68CB9F116CCE3A002ADDB5 /* NXTController+SystemCommands.m in Sources */,
+				BC68CBA1116CCE3A002ADDB5 /* NXTModel.m in Sources */,
+				BC68CBAD116CCE84002ADDB5 /* NXTConnection.m in Sources */,
+				BC68CBAF116CCE84002ADDB5 /* NXTNetConnection.m in Sources */,
+				BC68CBCF116CCF0C002ADDB5 /* AsyncSocket.m in Sources */,
+				BC68CDC6116CD864002ADDB5 /* DCSConnectionManager.m in Sources */,
+				BCA54378117249EB0073900C /* NetConnectioh.m in Sources */,
+				BC2F67CD11A6E47700756290 /* NXTSensor.m in Sources */,
+				BC2F6B0411AE06D800756290 /* NXTController+SensorCommands.m in Sources */,
+				BC2F6B3011AE201D00756290 /* NXTLogController.m in Sources */,
+				BC2F6C5E11B009BA00756290 /* NXTMotor.m in Sources */,
+				BC2F6C8D11B1948D00756290 /* NXTLowSpeed.m in Sources */,
+				BC2F6CAF11B197FF00756290 /* NXTSonar.m in Sources */,
+				BC2F6DB211B1B3B400756290 /* NXTGenericSensor.m in Sources */,
+				BCC10D8A11CD7557001EB05D /* NXTFile.m in Sources */,
+				BCC10DAF11CD76E5001EB05D /* NXTFileController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/iNXTFramework.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../XCode_Builds/Debug\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iNXTFramework_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = iNXTFramework;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/iNXTFramework.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../XCode_Builds/Debug\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iNXTFramework_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = iNXTFramework;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		BC42811B1179FC31004BA45F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/iNXTFramework_Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "iNXTFramework-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = YES;
+				PRODUCT_NAME = iNXTFramework;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		BC42811C1179FC31004BA45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/iNXTFramework_Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "iNXTFramework-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = YES;
+				PRODUCT_NAME = iNXTFramework;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "iNXTLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "iNXTFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4281201179FC4F004BA45F /* Build configuration list for PBXNativeTarget "iNXTFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC42811B1179FC31004BA45F /* Debug */,
+				BC42811C1179FC31004BA45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
